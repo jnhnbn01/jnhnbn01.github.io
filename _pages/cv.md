@@ -18,21 +18,22 @@ redirect_from:
 
 -----
 
-## Education
+Education
+=====
 ### **Yonsei University**
-Seoul, Korea / Mar.2020 - Feb.2027 (Expected)
-
+Seoul, Korea / Mar.2020 - Feb.2027 (Expected)<br>
 B.S. Student in Physics<br>
-B.S. Student in Electrical & Electronic Engineering 
-
+B.S. Student in Electrical & Electronic Engineering <br>
 **Total GPA: 4.12/4.3** 
 <br>
 
-## Research Interests
+Research Interests
+=====
 Neural Network Compression, Diffusion Models, Physical AI 
 <br>
 
-## Undergraduate Projects (Selected)
+Undergraduate Projects (Selected)
+=====
 **100-class Face Recognition via Transfer Learning with Pre-trained ResNet-18** <br>
 Fall 2025, Introduction to Artificial Intelligence / Skills: Pytorch
 - Implemented training pipelines for a given face recognition dataset (5,000 images, 100-class), considering its small size and low similarity to ImageNet
@@ -57,19 +58,21 @@ Fall 2024, Introductory Digital Labs / Skills: Verilog, FPGA
 - Implemented an FSM-based system that computes the iterative formula of the Julia set using fixed-point multiplication (Q format).
 - Developed an interactive Julia set visualizer on an LCD screen with adjustable parameters and zoom levels by mapping pixel coordinates to the complex plane. <br>
 
-## Extracurricular Activities
-**Yonsei Artificial Intelligence Club (YAI) 16th**
+Extracurricular Activities
+=====
+**Yonsei Artificial Intelligence Club (YAI) 16th** <br>
 Fall 2025 - Present
 - Participated in group studies to discuss and review key computer vision papers (e.g., classification, object detection, generative models, etc.) and study the mathematical backgrounds (e.g., analysis)
 - Implemented the reviewed models through collaborative projects using PyTorch.
 
-**Diffusion Models Seminar (Instructor: Prof. Kyungwoo Song)**
+**Diffusion Models Seminar (Instructor: Prof. Kyungwoo Song)** <br>
 Dec. 2025 - Present
 - Studied and discussed the theoretical foundations of diffusion models using ``The Principles of Diffusion Models" (Chieh-Hsin Lai et al.) as the primary textbook.
 - Developed a unified and systemic perspective on diffusion models by interpreting Variational (VAE to DDPM), Score-based (EBM to NCSM), and Flow-based (NF to Flow matching) frameworks, including fast sampling and generation techniques.
 <br>
 
-## Awards & Honors
+Awards & Honors
+=====
 - Honors (Feb. 2025)
 - High Honors (Feb. 2021)
 - Yonsei Veritas Scholarship (Jun. 2021, Feb. 2025, Aug. 2025)
@@ -80,7 +83,8 @@ Non-mathematics major fields, 3rd Prize
 4th Prize
 <br>
 
-## Skills
+Skills
+=====
 * Coding Skills: PyTorch, Python, Verilog HDL, C/C++, LaTeX
 <br>
 
@@ -108,3 +112,4 @@ Others
 ======
 - Mandatory Military Service @ Republic of Korea Army (Nov. 2022 - May. 2024)
   <br>Sergeant, Honorable Discharge
+<br>
