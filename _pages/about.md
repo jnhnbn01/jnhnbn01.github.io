@@ -12,4 +12,4 @@ I am an undergraduate student @ Yonsei University, majoring in physics and elect
 In particular, I am interested in neural network compression (e.g., network quantization) and physical AI in the context of low power devices, as well as diffusion models motivated by a strong interest in mathematics.
 
 ## 📢 News
-- [02/07/2026]🎉 My personal website is now live! More updates coming soon.
+- [02/07/2026]🎉 My personal website is now live! More updates will be coming soon.
