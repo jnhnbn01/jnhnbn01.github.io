@@ -32,6 +32,10 @@ Research Interests
 Neural Network Compression, Diffusion Models, Physical AI 
 <br>
 
+Related Course
+=====
+Probability and Random Variables, Introduction Artificial Intelligence, Linear Algebra for Electrical and Electronic Systems, Fundamental Computer Vision, Intelligent System Design And Applications
+
 Undergraduate Projects (Selected)
 =====
 **100-class Face Recognition via Transfer Learning with Pre-trained ResNet-18** <br>
