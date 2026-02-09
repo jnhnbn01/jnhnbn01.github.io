@@ -7,11 +7,10 @@ redirect_from:
   - /resume
 ---
 
----
 
 <div class="cv-download-links">
   <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
 
------
+<br>
 
 <iframe src="{{ '/files/cv.pdf' | relative_url }}" width="100%" height="1200px"></iframe>
