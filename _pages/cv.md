@@ -13,4 +13,4 @@ redirect_from:
 
 <br>
 
-<iframe src="{{ '/files/cv.pdf' | relative_url }}" width="100%" height="1200px"></iframe>
+<iframe src="{{ base_path }}/files/cv.pdf" width="100%" height="1200px"></iframe>
