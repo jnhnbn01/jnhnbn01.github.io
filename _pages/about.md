@@ -7,13 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student @ Yonsei University, majoring in physics and electrical & electronic engineering. I am currently studying machine learning and computer vision with the goal of entering a combined MS–PhD program in the spring of 2027.
+I am an undergraduate student @ Yonsei University, majoring in physics and electrical & electronic engineering. I am currently studying machine learning and diffusion models with the goal of entering a combined MS–PhD program in the spring of 2027.
 
 In particular, my current interests include the following topics:
-- Diffusion Models: Discrete Diffusion, Diffusion Language Model
-- Efficient AI: Network Quantization, Network Compression
-
+- Diffusion Models, Diffusion Language Models:<br>
+  Driven by a profound interest in mathematics, I am currently focusing on the theoretical foundations of diffusion models through the lens of probability theory and stochastic differential equations. Furthermore, I am studying diffusion language models to understand how the diffusion process extends to the discrete domain (i.e. text generation) to address the limitations of autoregressive models (ARMs).
+- Efficient AI, Network Quantization:<br>
+  With a strong background in electronic engineering and experience in digital circuits for AI acceleration, I am also interested in efficient AI models and network quantization. Observing that the human brain can solve complex vision and language tasks with minimal power consumption, I believe that model efficiency is an essential metric in evaluating AI models.
 
 ## 📢 News
-<!-- - [02/12/2026] I joined Artificial Intelligence and Information Systems Lab (AI-ISL) @ Yonsei University as an undergraduate researcher. -->
+- [02/12/2026] I joined the Artificial Intelligence and Information Systems Lab (**AI-ISL**) @ Yonsei University as an **undergraduate researcher**.
 - [02/07/2026]🎉 My personal website is now live! More updates will be coming soon.
+
+
+## 🎓 Education
+- **B.S. Candidate** in Physics and Electrical Electonic Engineering<br>
+   Mar 2020 - Feb 2027 (Expected) @ **Yonsei University** (Seoul, Korea)
+
