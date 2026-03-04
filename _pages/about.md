@@ -7,8 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student at Yonsei University, double majoring in Physics and Electrical & Electronic Engineering. I am currently studying machine learning and diffusion models with the goal of entering a combined MS–PhD program in the spring of 2027.
+I am currently an undergraduate student at Yonsei University, double majoring in Physics and Electrical & Electronic Engineering. 
+Recently, I joined the Artificial Intelligence and Information Systems LAB (AI-ISL) as an undergradute researcher, advised by Prof. Alber No.
 
+Now I am studying machine learning and diffusion models with the goal of entering a combined MS–PhD program in the spring of 2027.
 In particular, my current interests include the following topics:
 - Diffusion Models, Diffusion Language Models:<br>
   Driven by a profound interest in mathematics, I am currently focusing on the theoretical foundations of diffusion models through the lens of probability theory and stochastic differential equations. Furthermore, I am studying diffusion language models, understanding how the diffusion process extends into the discrete domain (i.e. text generation) to address the limitations of autoregressive models (ARMs).
