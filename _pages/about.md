@@ -13,9 +13,10 @@ Recently, I joined the Artificial Intelligence and Information Systems LAB (AI-I
 Now I am studying machine learning and diffusion models with the goal of entering a combined MS–PhD program in the spring of 2027.
 In particular, my current interests include the following topics:
 - Diffusion Models, Diffusion Language Models:<br>
-  Driven by a profound interest in mathematics, I am currently focusing on the theoretical foundations of diffusion models through the lens of probability theory and stochastic differential equations. Furthermore, I am studying diffusion language models, understanding how the diffusion process extends into the discrete domain (i.e. text generation) to address the limitations of autoregressive models (ARMs).
+  Driven by a profound interest in mathematics, I am studying on the theoretical foundations of diffusion models through the lens of probability theory. 
+	Furthermore, I am currently focusing on discrete diffusion models, understanding how the diffusion process extends into the discrete domain (i.e. text generation) to address the limitations of autoregressive models (ARMs).
 - Efficient AI, Network Quantization:<br>
-  With a strong background in electronic engineering and experience in digital circuits for AI acceleration, I am also interested in efficient AI models and network quantization. Observing that the human brain can solve complex vision and language tasks with minimal power consumption, I believe that model efficiency is an essential metric to evaluate AI models.
+  With backgrounds in electronic engineering (i.e. digital circuits for AI), I am also interested in efficient AI models and network quantization. Observing that the human brain can solve complex vision and language tasks with minimal power consumption, I believe that model efficiency is an essential metric to evaluate AI models.
 
 ## 📢 News
 <!-- - [02/12/2026] I joined the Artificial Intelligence and Information Systems Lab (**AI-ISL**) @ Yonsei University as an **undergraduate researcher**. -->
