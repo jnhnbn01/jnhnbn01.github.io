@@ -25,5 +25,5 @@ In particular, my current interests include the following topics:
 
 ## 🎓 Education
 - **B.S. Candidate** in Physics and Electrical Electonic Engineering<br>
-   Mar 2020 - Feb 2027 (Expected) @ **Yonsei University** (Seoul, Korea)
-
+	Mar 2020 - Feb 2027 (Expected) @ **Yonsei University** (Seoul, Korea)
+	GPA: 4.12/4.30
