@@ -7,16 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an undergraduate student at Yonsei University, double majoring in Physics and Electrical & Electronic Engineering. 
-Recently, I joined the Artificial Intelligence and Information Systems LAB (AI-ISL) as an undergradute researcher, advised by Prof. Albert No.
+I am currently an undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/), double majoring in Physics and Electrical & Electronic Engineering. 
+Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/) as an undergradute researcher, advised by Prof. Seungryong Kim.
 
-Now I am studying machine learning and artificial intelligence with the goal of entering a combined MS–PhD program in the spring of 2027.
-In particular, my current interests include the following topics:
-- Diffusion Models, Diffusion Language Models:<br>
-  Driven by a profound interest in mathematics, I am studying on the theoretical foundations of diffusion models. 
-	Furthermore, I am currently focusing on discrete diffusion models, understanding how the diffusion process extends to the discrete domain (i.e. text generation) for addressing the limitations of autoregressive models.
-- Efficient AI, Network Quantization:<br>
-  With backgrounds in electronic engineering (i.e. digital circuits for AI), I am also interested in efficient AI models and network quantization. Observing that the human brain can solve complex vision and language tasks with minimal power consumption, I believe that model efficiency is an essential metric to evaluate AI models.
+My research interests have developed from the following questions:
+
+- Can dynamics representations internalized from visual information and action signals serve as a more fundamental basis for machine intelligence than human-abstracted linguistic data?
+**World Models, Computer Vision for Robotics**
+- Can machines learn the duality between action and dynamics from video, interpreting dynamics as environment-centric actions to infer latent actions, and actions as agent-centric dynamics to build hierarchical abstractions for long-horizon video generation?
+**Video Generative Models, Latent Action Models**
 
 ## 📢 News
 <!-- - [02/12/2026] I joined the Artificial Intelligence and Information Systems Lab (**AI-ISL**) @ Yonsei University as an **undergraduate researcher**. -->
