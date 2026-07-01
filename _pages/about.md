@@ -25,43 +25,47 @@ Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Gradu
 World Models, Video Generative Models, Diffusion Models
 
 ## 🥼 Experiences
-<img 
-  width="100" 
-  alt="image" 
-  src="https://github.com/user-attachments/assets/96bed371-1f83-460b-b628-9b91d2774fa7"
-  align="left"
-/>
+<div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
+  <img 
+    style="width: 100px; flex-shrink: 0;"
+    alt="image" 
+    src="https://github.com/user-attachments/assets/96bed371-1f83-460b-b628-9b91d2774fa7"
+  />
 
-<br>
-<strong>Computer Vision Lab (CVLAB) @ KAIST AI</strong>
-<br>
-<em>Undergraduate Researcher (Advisor: Prof. Seungryong Kim)</em> | Jun 2026 - Present
-<br clear="left" />
+  <div style="line-height: 1.5;">
+    <strong>Computer Vision Lab (CVLAB) @ KAIST AI</strong>
+    <br>
+    <em>Undergraduate Researcher (Advisor: Prof. Seungryong Kim)</em> | Jun 2026 - Present
+  </div>
+</div>
 
-<br>
-<img 
-	width="100" 
-	alt="Picture1" 
-	src="https://github.com/user-attachments/assets/8d847cac-d133-4d56-9517-9447205b2de7" 
-	align="left"
-/>
-<br>
-<strong>Artificial Intelligence and Information Systems Lab (AI-ISL) @ Yonsei University</strong>
-<br>
-<em>Undergraduate Researcher (Advisor: Prof. Albert No)</em> | Feb 2026 - Jun 2026
-<br clear="left" />
+<div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
+  <img 
+    style="width: 100px; flex-shrink: 0;"
+    alt="Picture1" 
+    src="https://github.com/user-attachments/assets/8d847cac-d133-4d56-9517-9447205b2de7"
+  />
 
-<br>
-<img 
-	width="100" 
-	alt="Picture2" 
-	src="https://github.com/user-attachments/assets/233a8819-b24f-49eb-afcb-14e79646192c" 
-	align="left"/>
-<br>
-<strong>Yonsei Artificial Intelligence Club (YAI)</strong>
-<br>
-<em>16th Member</em> | Jul. 2025 - Jul. 2026
-<br clear="left" />
+  <div style="line-height: 1.5;">
+    <strong>Artificial Intelligence and Information Systems Lab (AI-ISL) @ Yonsei University</strong>
+    <br>
+    <em>Undergraduate Researcher (Advisor: Prof. Albert No)</em> | Feb 2026 - Jun 2026
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
+  <img 
+    style="width: 100px; flex-shrink: 0;"
+    alt="Picture2" 
+    src="https://github.com/user-attachments/assets/233a8819-b24f-49eb-afcb-14e79646192c"
+  />
+
+  <div style="line-height: 1.5;">
+    <strong>Yonsei Artificial Intelligence Club (YAI)</strong>
+    <br>
+    <em>16th Member</em> | Jul. 2025 - Jul. 2026
+  </div>
+</div>
 
 
 <!--<table border="0" cellspacing="0" cellpadding="0">
