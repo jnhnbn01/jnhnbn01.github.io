@@ -25,10 +25,46 @@ Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Gradu
 World Models, Video Generative Models, Diffusion Models
 
 ## 🥼 Experiences
-**Computer Vision Lab (CVLAB) @ KAIST AI**<br>
-_Undergraduate Researcher (Advisor: Prof. Seungryong Kim)_ | Jun 2026 - Present
+<img 
+  width="100" 
+  alt="image" 
+  src="https://github.com/user-attachments/assets/96bed371-1f83-460b-b628-9b91d2774fa7"
+  align="left"
+/>
 
-<table border="0" cellspacing="0" cellpadding="0">
+<br>
+<strong>Computer Vision Lab (CVLAB) @ KAIST AI</strong>
+<br>
+<em>Undergraduate Researcher (Advisor: Prof. Seungryong Kim)</em> | Jun 2026 - Present
+<br clear="left" />
+
+<br>
+<img 
+	width="100" 
+	alt="Picture1" 
+	src="https://github.com/user-attachments/assets/8d847cac-d133-4d56-9517-9447205b2de7" 
+	align="left"
+/>
+<br>
+<strong>Artificial Intelligence and Information Systems Lab (AI-ISL) @ Yonsei University</strong>
+<br>
+<em>Undergraduate Researcher (Advisor: Prof. Albert No)</em> | Feb 2026 - Jun 2026
+<br clear="left" />
+
+<br>
+<img 
+	width="100" 
+	alt="Picture2" 
+	src="https://github.com/user-attachments/assets/233a8819-b24f-49eb-afcb-14e79646192c" 
+	align="left"/>
+<br>
+<strong>Yonsei Artificial Intelligence Club (YAI)</strong>
+<br>
+<em>16th Member</em> | Jul. 2025 - Jul. 2026
+<br clear="left" />
+
+
+<!--<table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="140" valign="top" align="center" border="0">
       <img 
@@ -38,50 +74,15 @@ _Undergraduate Researcher (Advisor: Prof. Seungryong Kim)_ | Jun 2026 - Present
     <td valign="top" border="0">
     </td>
   </tr>
-</table>
+</table>-->
 
 
-<br>
 
-**Artificial Intelligence and Information Systems Lab (AI-ISL) @ Yonsei University**<br>
-_Undergraduate Researcher (Advisor: Prof. Albert No)_ | Feb 2026 - Jun 2026
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="140" valign="top" align="center" border="0">
-      <img
-        width="120"
-        alt="image"
-        src="https://github.com/user-attachments/assets/b4de8a1e-df4e-4660-8729-407bfdb8c004"
-      />
-    </td>
-    <td valign="top" border="0">
-      <ul>
-        <li>Reviewed fundamental papers on diffusion LLMs, including SEDD, RADD, LLaDA, and fast-dLLM.</li>
-        <li>Explored parallel decoding strategies in diffusion LLMs as methods for mitigating the mismatch between the true joint probability and the token independence assumption.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
-**Yonsei Artificial Intelligence Club (YAI)**
-16th Member<br>Jul. 2025 - Jul. 2026
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="140" valign="top" align="center" border="0">
-      <img 
-	width="100" alt="image" src="https://github.com/user-attachments/assets/87f197bb-3f33-4944-8251-a00451824431" 
-/>
-    </td>
-    <td valign="top" border="0">
-      <ul>
-        <li>Participated in group studies to discuss and review key computer vision papers (e.g., classification, object detection, generative models, etc.) and study the mathematical backgrounds (e.g., analysis)</li>
-        <li>Collaborated on hands-on team projects including playing card detection and handwritten math equation OCR, and mutation prediction using Evo-2.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+
+
 
 ## 🏆 Awards & Honors
 
