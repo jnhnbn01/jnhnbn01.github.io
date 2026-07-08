@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/), double majoring in Physics and Electrical & Electronic Engineering. 
+I am an undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/), double majoring in Physics and Electrical & Electronic Engineering. 
 Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/) as an undergradute researcher, advised by Prof. Seungryong Kim.
 
 ## 📢 News
@@ -19,10 +19,10 @@ Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Gradu
 - **B.S. Candidate** in Physics and Electrical Electonic Engineering<br>
     **Yonsei University** (Seoul, Korea) | Mar 2020 - Feb 2027 (Expected)<br>
 	Leave of absence for mandatory military service | Nov 2022 – May 2024<br>
-	**GPA: 4.12/4.30**
+    GPA: 4.12/4.30
 
 ## 🔍 Research Interests
-Video Generative Models, Latent Action Models
+Video Diffusion Models, Latent Action Models
 
 ## 🥼 Experiences
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
