@@ -22,7 +22,7 @@ Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Gradu
 	**GPA: 4.12/4.30**
 
 ## 🔍 Research Interests
-World Models, Video Generative Models, Diffusion Models
+Video Generative Models, Latent Action Models
 
 ## 🥼 Experiences
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
