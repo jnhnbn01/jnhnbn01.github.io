@@ -10,6 +10,12 @@ redirect_from:
 I am an undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/), double majoring in Physics and Electrical & Electronic Engineering. 
 Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/) as an undergradute researcher, advised by Prof. Seungryong Kim.
 
+My research focuses on **diffusion models for sequential modeling**, particularly for video generation. I am interested in how diffusion models can be structured to learn temporal dependencies, model how states evolve over time, and represent uncertainty in future trajectories.
+
+My early work on discrete diffusion brought together two components: diffusion as a probabilistic generative framework and language modeling as an instance of sequential modeling. The diffusion component shifted my interest from applications in language toward diffusion models for vision, while the language-modeling component drew me to the broader principles of sequential modeling that extend beyond language. With my background in physics, I was particularly drawn to world models in reinforcement learning, which learn system dynamics from observed trajectories. This perspective further deepened my interest in sequential modeling.
+
+I currently bring these directions together in my work on **autoregressive video diffusion models**, which generate video segment by segment while using diffusion to model the conditional distribution of each segment given its preceding context. I am especially interested in how this combination can capture long-horizon dynamics, propagate uncertainty over time, and maintain temporal consistency across generated segments.
+
 ## 📢 News
 <!-- - [02/12/2026] I joined the Artificial Intelligence and Information Systems Lab (**AI-ISL**) @ Yonsei University as an **undergraduate researcher**. -->
 - [02/07/2026]🎉 My personal website is now live! More updates will be coming soon.
@@ -22,7 +28,7 @@ Recently, I joined [CVLAB](https://cvlab.kaist.ac.kr/) in the [Kim Jaechul Gradu
     GPA: 4.12/4.30
 
 ## 🔍 Research Interests
-Video Diffusion Models, Latent Action Models
+Video Diffusion Models, World Models
 
 ## 🥼 Experiences
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
