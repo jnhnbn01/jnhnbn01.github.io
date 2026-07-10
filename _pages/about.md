@@ -26,7 +26,7 @@ Bringing these interests together, I currently study autoregressive video diffus
     GPA: 4.12/4.30
 
 ## 🔍 Research Interests
-Video Diffusion Models, World Models
+Video Diffusion Models, Discrete Diffusion
 
 ## 🥼 Experiences
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 24px;">
