@@ -240,3 +240,49 @@ span.highlight {
     white-space: normal;
   }
 }
+
+@media (max-width: 600px) {
+  .profile-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-bio,
+  .profile-photo {
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box;
+  }
+
+  .profile-photo {
+    order: -1;
+    padding: 20px 16px 0 !important;
+    text-align: center;
+  }
+
+  .profile-photo img {
+    width: 150px !important;
+    max-width: 45vw !important;
+  }
+
+  .profile-bio {
+    padding: 8px 16px !important;
+  }
+
+  .name {
+    padding-top: 8px;
+  }
+}
+
+.item-date {
+  float: right;
+}
+
+@media (max-width: 600px) {
+  .item-date {
+    float: none;
+    display: block;
+    margin-top: 2px;
+    color: #555;
+  }
+}
