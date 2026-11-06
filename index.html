@@ -1,267 +1,684 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hyeonbeen Jeon</title>
+  <meta name="author" content="Hyeonbeen Jeon">
+  <meta name="description" content="Hyeonbeen Jeon — Physics and Electrical & Electronic Engineering at Yonsei University. Research intern at RoPhi Lab.">
+  <meta name="color-scheme" content="light dark">
 
-    <title>Hyeonbeen Jeon</title>
+  <link rel="icon" href="images/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
 
-    <meta name="author" content="Hyeonbeen Jeon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr class="profile-row" style="padding:0px">
-              <td class="profile-bio" style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Hyeonbeen Jeon
-                </p>
-                <p>
-                I am an undergraduate student at <a href="https://www.yonsei.ac.kr/">Yonsei University</a>, double majoring in Physics and Electrical & Electronic Engineering. 
-                Recently, I joined <a href="https://cvlab.kaist.ac.kr/">CVLAB</a> at <a href="https://gsai.kaist.ac.kr/">KAIST AI</a> as an undergraduate researcher, advised by Prof. Seungryong Kim.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:jnhnbn01@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="">CV</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/jnhnbn01/">LinkedIn</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jnhnbn01/">GitHub</a>
-                </p>
-              </td>
-              <td class="profile-photo" style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/main_profile.jpg"><img style="width:80%;max-width:80%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/main_profile.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
+  <!-- Apply saved theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      document.documentElement.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+</head>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <p>
-                My early work on discrete diffusion led me to view diffusion language models as combining two components: diffusion as a generative framework and language modeling as an autoregressive (AR) framework. This experience led my research interests beyond the language domain toward areas where two central axes of generative modeling—diffusion and autoregressive—meet. From this perspective, I am particularly interested in <strong>AR video diffusion</strong> and <strong>discrete diffusion</strong>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>📢 News</h2>
-                <p>
-                  2026-02-07 🎉 My personal website is now live! More updates will be coming soon.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+<body>
+  <!-- Decorative background: dot grid, and a neural-network canvas behind the hero -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <canvas class="bg-net" aria-hidden="true"></canvas>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>🎓 Education</h2>
-                <div class="experience-list">
-                  <article class="experience-item">
-                      <div class="experience-logo-frame">
-                        <img
-                          class="experience-logo"
-                          alt="yonsei logo"
-                          src="images/yonsei.svg"
-                        >
-                      </div>
-                      <div class="experience-content">
-                        <div class="education-header">
-                          <strong class="education-major">B.S. in Physics &amp; Electrical and Electronic Engineering</strong>
-                        </div>
-                        <div class="experience-header">
-                          <strong>Yonsei University</strong>
-                          <span class="experience-date"><time datetime="2020-03">Mar. 2020</time> – <time datetime="2027-02">Feb. 2027 (Expected)</time></span>
-                        </div>
-                        <div class="experience-header">
-                          Leave of absence for mandatory military service
-                          <span class="experience-date"><time datetime="2022-11">Nov. 2022</time> – <time datetime="2024-05">May. 2024</time></span>
-                        </div>
+  <header class="topbar">
+    <nav class="topbar-inner" aria-label="Primary">
+      <a class="brand" href="#top">jnhnbn01</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </nav>
+  </header>
 
-                        <p class="experience-description">
-                          GPA: 4.12/4.30
-                        </p>
-                      </div>
-                    </article>
-                </div>
-              </td>
-            </tr>
-          </tbody></table>
+  <main id="top" class="container">
 
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>🥼 Experience</h2>
-                <div class="experience-list">
-                  <article class="experience-item">
-                    <div class="experience-logo-frame">
-                      <img
-                        class="experience-logo"
-                        alt="CVLAB logo"
-                        src="images/cvlab.png"
-                      >
-                    </div>
-                    <div class="experience-content">
-                      <div class="experience-header">
-                        <strong class="experience-organization">Computer Vision Lab (<a href="https://cvlab.kaist.ac.kr">CVLAB</a>) @ KAIST AI</strong>
-                        <span class="experience-date"><time datetime="2026-06">Jun. 2026</time> – Present</span>
-                      </div>
-                      <div class="experience-role">Undergraduate Researcher</div>
-                      <div class="experience-advisor">Advised by Prof. Seungryong Kim</div>
-                      <p class="experience-description">
-                        
-                      </p>
-                    </div>
-                  </article>
-
-                  <article class="experience-item">
-                    <div class="experience-logo-frame">
-                      <img
-                        class="experience-logo"
-                        alt="AI-ISL logo"
-                        src="images/aiisl.png"
-                      >
-                    </div>
-                    <div class="experience-content">
-                      <div class="experience-header">
-                        <strong class="experience-organization">Artificial Intelligence and Information Systems Lab (<a href="https://ai-isl.yonsei.ac.kr">AI-ISL</a>) @ Yonsei University</strong>
-                        <span class="experience-date"><time datetime="2026-02">Feb. 2026</time> – <time datetime="2026-06">Jun. 2026</time></span>
-                      </div>
-                      <div class="experience-role">Undergraduate Researcher</div>
-                      <div class="experience-advisor">Advised by Prof. Albert No</div>
-                      <p class="experience-description">
-                        
-                      </p>
-                    </div>
-                  </article>
-
-                  <article class="experience-item">
-                    <div class="experience-logo-frame">
-                      <img
-                        class="experience-logo experience-logo--yai"
-                        alt="Yonsei Artificial Intelligence Club logo"
-                        src="https://github.com/user-attachments/assets/233a8819-b24f-49eb-afcb-14e79646192c"
-                      >
-                    </div>
-                    <div class="experience-content">
-                      <div class="experience-header">
-                        <strong class="experience-organization">Yonsei Artificial Intelligence Club (<a href="https://y-yai.com">YAI</a>)</strong>
-                        <span class="experience-date"><time datetime="2025-07">Jul. 2025</time> – <time datetime="2026-07">Jul. 2026</time></span>
-                      </div>
-                      <div class="experience-role">16th - 17th Member</div>
-                    </div>
-                  </article>
-                </div>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table style="width:100%; border:0; border-spacing:0; border-collapse:separate; margin:0 auto;">
-            <tbody>
-              <tr>
-                <td style="padding:16px; width:100%; vertical-align:middle;">
-                  <h2>🏆 Honors &amp; Awards</h2>
-                  <div class="experience-list">
-                    <article class="experience-item">
-                      <div class="experience-content">
-                        <div class="experience-header">
-                          <strong>Honors, High Honors</strong>
-                          <span class="experience-date"><time datetime="2025-02">Feb. 2025, Feb. 2021</time></span>
-                        </div>
-                        <div class="experience-header">
-                          <strong>Yonsei Veritas Scholarship (GPA-based)</strong>
-                          <span class="experience-date"><time datetime="20251-08">Aug. 2025</time>, <time datetime="2025-02">Feb. 2025</time>, <time datetime="2021-06">Jun. 2021</time></span>
-                        </div>
-                        <div class="experience-header">
-                          <strong>KMS Mathematics Competition for University Students</strong>
-                        </div>
-                        <div class="experience-header">
-                          <div class="experience-advisor">3rd Prize, Non-Mathematics Major Division</div>
-                          <span class="experience-date"><time datetime="2023-12">Dec. 2023</time></span>
-                        </div>
-                        <div class="experience-header">
-                          <strong>2020 Yonsei–Nexon √<i>i</i> RC Creative Platform</strong>
-                        </div>
-                        <div class="experience-header">
-                          <div class="experience-advisor">4th Prize</div>
-                          <span class="experience-date"><time datetime="2020-12">Dec. 2020</time></span>
-                        </div>
-                      </div>
-                      
-                    </article>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-        </td>
-      </tr>
-    </table>
-  </body>
-</html>
-
-<p style="text-align:center">
-  <a href="https://myhits.vercel.app"><img src="https://myhits.vercel.app/api/hit/https%3A%2F%2Fjnhnbn01.github.com?color=purple&label=hits&size=small" alt="hits" /></a>
-</p>
-<!----------
-<tr onmouseout="vbanana_stop()" onmouseover="vbanana_start()" bgcolor="#ffffd0">
-  <td style="padding:16px;width:20%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='vbanana_image'>
-        <img src='images/vbanana_after.jpg' width=100%>
+    <!-- ============ Profile ============ -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow" aria-label="ML · AI · Robotics"><span class="typed" aria-hidden="true">ML · AI · Robotics</span><span class="caret"></span></p>
+        <h1 class="name">Hyeonbeen Jeon</h1>
+        <ul class="social">
+          <li>
+            <a class="chip" href="mailto:jnhnbn01@gmail.com" data-copy-email="jnhnbn01@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              Email
+            </a>
+          </li>
+          <li>
+            <!-- TODO: add CV link (e.g. data/Hyeonbeen-Jeon-CV.pdf) -->
+            <a class="chip" href="">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>
+              CV
+            </a>
+          </li>
+          <li>
+            <a class="chip" href="https://www.linkedin.com/in/jnhnbn01/">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="chip" href="https://github.com/jnhnbn01/">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+              GitHub
+            </a>
+          </li>
+        </ul>
       </div>
-      <img src='images/vbanana_before.jpg' width=100%>
-    </div>
-    <script type="text/javascript">
-      function vbanana_start() {
-        document.getElementById('vbanana_image').style.opacity = "1";
-      }
 
-      function vbanana_stop() {
-        document.getElementById('vbanana_image').style.opacity = "0";
-      }
-      vbanana_stop()
-    </script>
-  </td>
-  <td style="padding:8px;width:80%;vertical-align:middle">
-    <a href="https://vision-banana.github.io/">
-      <span class="papertitle">Image Generators are Generalist Vision Learners</span>
+      <a class="hero-photo" href="images/main_profile.jpg">
+        <img src="images/main_profile.jpg" alt="Portrait of Hyeonbeen Jeon" width="800" height="800">
+      </a>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section id="about" class="section about">
+      <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span> About</h2>
+      <p>
+        I am an undergraduate student at <a href="https://www.yonsei.ac.kr/">Yonsei University</a>,
+        majoring in Physics and Electrical &amp; Electronic Engineering,
+        and I expect to graduate in February 2027.
+      </p>
+      <!-- Full version: restore together with the hidden RoPhi Lab entry
+      <p>
+        I recently joined <a href="https://rophi-lab.github.io/">RoPhi Lab</a> at
+        <a href="https://www.yonsei.ac.kr/">Yonsei University</a> as a research intern,
+        advised by Prof. Yonghyeon Lee.
+        Before that, I was an undergraduate researcher at <a href="https://cvlab.kaist.ac.kr/">CVLAB</a>,
+        <a href="https://gsai.kaist.ac.kr/">KAIST AI</a>, advised by Prof. Seungryong Kim,
+        and at <a href="https://ai-isl.yonsei.ac.kr">AI-ISL</a>, <a href="https://www.yonsei.ac.kr/">Yonsei University</a>,
+        advised by Prof. Albert No.
+      </p>
+      -->
+      <p>
+        I was an undergraduate researcher at <a href="https://cvlab.kaist.ac.kr/">CVLAB</a>,
+        <a href="https://gsai.kaist.ac.kr/">KAIST AI</a>, advised by Prof. Seungryong Kim,
+        and before that at <a href="https://ai-isl.yonsei.ac.kr">AI-ISL</a>, <a href="https://www.yonsei.ac.kr/">Yonsei University</a>,
+        advised by Prof. Albert No.
+      </p>
+    </section>
+
+    <!-- ============ Research interests ============
+    <section id="research" class="section">
+      <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 2v7.3a5 5 0 0 1-.6 2.4L4.7 20a1.4 1.4 0 0 0 1.2 2h12.2a1.4 1.4 0 0 0 1.2-2l-4.7-8.3a5 5 0 0 1-.6-2.4V2"/><path d="M8.5 2h7M7 16h10"/></svg></span> Research</h2>
+      <p>...</p>
+    </section>
+    -->
+
+    <!-- ============ News ============ -->
+    <section id="news" class="section">
+      <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 11v2a1 1 0 0 0 1 1h3l6 4V6L7 10H4a1 1 0 0 0-1 1z"/><path d="M17 9a4 4 0 0 1 0 6M19.5 6.5a8 8 0 0 1 0 11"/></svg></span> News</h2>
+      <ul class="news">
+        <li>
+          <time class="news-date" datetime="2026-02-07">2026.02.07</time>
+          <span>🎉 My personal website is now live! More updates will be coming soon.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section id="education" class="section">
+      <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 9 12 4 2 9l10 5 10-5z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5M22 9v6"/></svg></span> Education</h2>
+      <div class="entries">
+
+        <!-- Integrated M.S./Ph.D. (hidden until enrollment, Mar. 2027)
+        <article class="entry">
+          <div class="entry-logo"><img src="images/yonsei.svg" alt="Yonsei University logo" loading="lazy"></div>
+          <div class="entry-body">
+            <h3 class="entry-title">Integrated M.S./Ph.D. Program in Artificial Intelligence</h3>
+            <div class="entry-row">
+              <span class="entry-org">Yonsei University, Department of Artificial Intelligence</span>
+              <span class="entry-date"><time datetime="2027-03">Mar. 2027</time> – Present</span>
+            </div>
+            <p class="entry-sub">RoPhi Lab</p>
+          </div>
+        </article>
+        -->
+
+        <article class="entry">
+          <div class="entry-logo"><img src="images/yonsei.svg" alt="Yonsei University logo" loading="lazy"></div>
+          <div class="entry-body">
+            <h3 class="entry-title">B.S. in Physics and Electrical &amp; Electronic Engineering</h3>
+            <div class="entry-row">
+              <span class="entry-org">Yonsei University, Department of Physics</span>
+              <span class="entry-date"><time datetime="2020-03">Mar. 2020</time> – <time datetime="2027-02">Feb. 2027</time></span>
+            </div>
+            <div class="entry-row entry-sub">
+              <span>Leave of absence for mandatory military service</span>
+              <span class="entry-date"><time datetime="2022-11">Nov. 2022</time> – <time datetime="2024-05">May 2024</time></span>
+            </div>
+            <p class="entry-badge">GPA 4.12 / 4.30</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ Experience ============ -->
+    <section id="experience" class="section">
+      <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg></span> Experience</h2>
+      <div class="entries">
+
+        <!-- RoPhi Lab experience (temporarily hidden)
+        <article class="entry">
+          <div class="entry-logo"><img src="images/rophilab_simple.svg" alt="RoPhi Lab logo" loading="lazy"></div>
+          <div class="entry-body">
+            <div class="entry-row">
+              <h3 class="entry-title">Robotics and Physical AI Lab (<a href="https://rophi-lab.github.io/">RoPhi Lab</a>) @ Yonsei University</h3>
+              <span class="entry-date"><time datetime="2026-11">Nov. 2026</time> – Present</span>
+            </div>
+            <p class="entry-role">Undergraduate Researcher</p>
+            <p class="entry-sub">Advised by Prof. Yonghyeon Lee</p>
+          </div>
+        </article>
+        -->
+
+        <article class="entry">
+          <div class="entry-logo"><img src="images/cvlab.png" alt="CVLAB logo" loading="lazy"></div>
+          <div class="entry-body">
+            <div class="entry-row">
+              <h3 class="entry-title">Computer Vision Lab (<a href="https://cvlab.kaist.ac.kr">CVLAB</a>) @ KAIST AI</h3>
+              <span class="entry-date"><time datetime="2026-06">Jun. 2026</time> – <time datetime="2026-11">Nov. 2026</time></span>
+            </div>
+            <p class="entry-role">KAIST AI Research Intern (KAIRI)</p>
+            <p class="entry-sub">Advised by Prof. Seungryong Kim</p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-logo"><img src="images/aiisl_new.png" alt="AI-ISL logo" loading="lazy"></div>
+          <div class="entry-body">
+            <div class="entry-row">
+              <h3 class="entry-title">Artificial Intelligence and Information Systems Lab (<a href="https://ai-isl.yonsei.ac.kr">AI-ISL</a>) @ Yonsei University</h3>
+              <span class="entry-date"><time datetime="2026-02">Feb. 2026</time> – <time datetime="2026-06">Jun. 2026</time></span>
+            </div>
+            <p class="entry-role">Undergraduate Researcher</p>
+            <p class="entry-sub">Advised by Prof. Albert No</p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-logo entry-logo--zoom">
+            <img src="https://github.com/user-attachments/assets/233a8819-b24f-49eb-afcb-14e79646192c" alt="YAI logo" loading="lazy">
+          </div>
+          <div class="entry-body">
+            <div class="entry-row">
+              <h3 class="entry-title">Yonsei Artificial Intelligence Club (<a href="https://y-yai.com">YAI</a>)</h3>
+              <span class="entry-date"><time datetime="2025-07">Jul. 2025</time> – <time datetime="2026-07">Jul. 2026</time></span>
+            </div>
+            <p class="entry-role">16th – 17th Member</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ Honors & Awards ============ -->
+    <section id="awards" class="section">
+      <h2 class="section-title"><span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></svg></span> Honors &amp; Awards</h2>
+      <ul class="awards">
+        <li>
+          <div class="entry-row">
+            <strong>Honors, High Honors</strong>
+            <span class="entry-date"><time datetime="2025-02">Feb. 2025</time>, <time datetime="2021-02">Feb. 2021</time></span>
+          </div>
+        </li>
+        <li>
+          <div class="entry-row">
+            <strong>Yonsei Veritas Scholarship (GPA-based)</strong>
+            <span class="entry-date"><time datetime="2025-08">Aug. 2025</time>, <time datetime="2025-02">Feb. 2025</time>, <time datetime="2021-06">Jun. 2021</time></span>
+          </div>
+        </li>
+        <li>
+          <strong>KMS Mathematics Competition for University Students</strong>
+          <div class="entry-row entry-sub">
+            <span>3rd Prize, Non-Mathematics Major Division</span>
+            <span class="entry-date"><time datetime="2023-12">Dec. 2023</time></span>
+          </div>
+        </li>
+        <li>
+          <strong>2020 Yonsei–Nexon √<i>i</i> RC Creative Platform</strong>
+          <div class="entry-row entry-sub">
+            <span>4th Prize</span>
+            <span class="entry-date"><time datetime="2020-12">Dec. 2020</time></span>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Hyeonbeen Jeon</p>
+    <a class="chip chip--small" href="https://myhits.vercel.app" title="Visitors (today / total)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+      <img src="https://myhits.vercel.app/api/hit/https%3A%2F%2Fjnhnbn01.github.com?color=blue&label=visitors&size=small" alt="visitor count" height="20">
     </a>
-    <br>
-    <a href="https://gabeur.github.io/">Valentin Gabeur</a>,
-    <strong>Jonathan T. Barron</strong>,
-    <a href="https://kylegenova.com/">Kyle Genova</a>,
-    <br>
-    <em>arXiv</em>, 2026
-    <br>
-    <a href="https://vision-banana.github.io/">project page</a>
-    /
-    <a href="https://arxiv.org/abs/2604.20329">arXiv</a>
-    <p></p>
-    <p>
-    Reducing monodepth, normals, and semantic segmentation tasks to a single RGB-image-prediction task and fine-tuning an image generator (Nano Banana Pro) beats or ~matches specialized models.
-    </p>
-  </td>
-</tr>
--->
+  </footer>
 
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+
+      // Email: copy the address (mailto silently fails without a default mail app)
+      var toast = document.querySelector('.toast'), toastTimer;
+      function showToast(html) {
+        toast.innerHTML = html;
+        toast.classList.add('is-visible');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(function () { toast.classList.remove('is-visible'); }, 4000);
+      }
+      document.querySelectorAll('[data-copy-email]').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          if (e.metaKey || e.ctrlKey || e.shiftKey) return; // let modified clicks open the mail app
+          e.preventDefault();
+          var addr = a.getAttribute('data-copy-email');
+          var done = function () {
+            showToast('Copied <strong>' + addr + '</strong> &middot; <a href="mailto:' + addr + '">Open mail app</a>');
+          };
+          if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(addr).then(done, function () { window.location.href = 'mailto:' + addr; });
+          } else {
+            var ta = document.createElement('textarea');
+            ta.value = addr; document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); done(); } catch (err) { window.location.href = 'mailto:' + addr; }
+            ta.remove();
+          }
+        });
+      });
+
+      // Terminal-style typing for the line above the name: type, hold, backspace, repeat
+      (function () {
+        var line = document.querySelector('.eyebrow'), out = line && line.querySelector('.typed');
+        if (!out || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        var text = out.textContent, i = 0;
+        var TYPE_MS = 85, DELETE_MS = 40, HOLD_MS = 4000, PAUSE_MS = 700;
+        out.textContent = '';
+        function typeNext() {
+          line.classList.add('typing');
+          out.textContent = text.slice(0, ++i);
+          if (i < text.length) setTimeout(typeNext, TYPE_MS * (0.6 + Math.random() * 0.9));
+          else { line.classList.remove('typing'); setTimeout(deleteNext, HOLD_MS); }
+        }
+        function deleteNext() {
+          line.classList.add('typing');
+          out.textContent = text.slice(0, --i);
+          if (i > 0) setTimeout(deleteNext, DELETE_MS);
+          else { line.classList.remove('typing'); setTimeout(typeNext, PAUSE_MS); }
+        }
+        setTimeout(typeNext, 600);
+      })();
+
+      // Theme toggle
+      document.querySelector('.theme-toggle').addEventListener('click', function () {
+        var dark = root.dataset.theme
+          ? root.dataset.theme === 'dark'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        root.dataset.theme = dark ? 'light' : 'dark';
+        try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+      });
+
+      // Scroll reveal: each item floats up as it enters the viewport (staggered per batch),
+      // and is reset once it has fully left the viewport so it floats up again on return.
+      var RISE = '.hero, .section-title, .about p, .news li, .entry, .awards li';
+      var items = Array.prototype.slice.call(document.querySelectorAll(RISE));
+      function onRiseEnd(ev) {
+        if (ev.target !== this || ev.propertyName !== 'opacity') return;
+        this.classList.remove('rising');
+        this.style.transitionDelay = '';
+      }
+      function rise(el, delay) {
+        el.style.transitionDelay = delay + 'ms';
+        el.classList.add('rising', 'risen');
+      }
+      function reset(el) {
+        el.classList.remove('rising', 'risen');
+        el.style.transitionDelay = '';
+      }
+      if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        items.forEach(function (el) { el.classList.add('risen'); });
+      } else {
+        // show: when a bit of the item is inside the viewport
+        var showIO = new IntersectionObserver(function (entries) {
+          entries
+            .filter(function (e) { return e.isIntersecting && !e.target.classList.contains('risen'); })
+            .map(function (e) { return e.target; })
+            .sort(function (a, b) { return items.indexOf(a) - items.indexOf(b); })
+            .forEach(function (el, i) { rise(el, Math.min(i * 90, 450)); });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        // hide: only once the item is completely out of view (avoids flicker at the edge)
+        var hideIO = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { if (!e.isIntersecting) reset(e.target); });
+        }, { threshold: 0 });
+        items.forEach(function (el) {
+          el.addEventListener('transitionend', onRiseEnd);
+          showIO.observe(el);
+          hideIO.observe(el);
+        });
+      }
+
+      // Highlight current section in nav
+      var links = document.querySelectorAll('.nav-links a');
+      var spy = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          links.forEach(function (a) {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id);
+          });
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      document.querySelectorAll('main section[id]').forEach(function (s) { spy.observe(s); });
+    })();
+  </script>
+  <script>
+    // Feed-forward neural network behind the hero.
+    // Signals flow on their own (forward passes, occasional backprop) but stay faint so text
+    // remains readable. Around the cursor everything is drawn at full strength, and extra
+    // signals hop along the weights toward the cursor.
+    (function () {
+      var canvas = document.querySelector('.bg-net');
+      var hero = document.querySelector('.hero');
+      if (!canvas || !canvas.getContext) return;
+      var ctx = canvas.getContext('2d');
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+      var REACH = 170;        // cursor influence radius (px)
+      var SPOT = 240;         // radius in which signals are drawn at full strength (px)
+      var FAINT = 0.28;       // signal strength away from the cursor (0..1)
+      var WAVE_MS = 1800;     // ambient forward pass interval
+      var SEEK_MS = 220;      // cursor-seeking signal interval
+      var SPEED = 2.4;        // signal speed (px per frame)
+      var MAX_PULSES = 90;
+
+      var W = 0, H = 0, dpr = 1;
+      var nodes = [], layers = [], edges = [], pulses = [];
+      var rgb = '', rgb2 = '', bg = '';
+      var mouse = { x: -9999, y: -9999 };
+      var cursorNode = { act: 0 }; // last hop target: follows the cursor
+      var running = false, visible = true, raf = 0;
+      var wave = 0, waveCount = 0, lastWave = 0, lastSeek = 0;
+
+      function readColors() {
+        var cs = getComputedStyle(document.documentElement);
+        rgb = cs.getPropertyValue('--net-rgb').trim();
+        rgb2 = cs.getPropertyValue('--net-rgb-2').trim();
+        bg = cs.getPropertyValue('--bg').trim();
+      }
+
+      function cursorActive() { return mouse.x > -999 && mouse.y < H; }
+      function dist(n) { return Math.hypot(n.x - mouse.x, n.y - mouse.y); }
+      // 0 far from the cursor .. 1 right at it
+      function spot(x, y) {
+        if (!cursorActive()) return 0;
+        var d = Math.hypot(x - mouse.x, y - mouse.y);
+        return d < SPOT ? 1 - d / SPOT : 0;
+      }
+      function strength(x, y) { return FAINT + (1 - FAINT) * spot(x, y); }
+
+      function build() {
+        var sizes = W < 700 ? [3, 4, 4, 2] : [3, 5, 6, 6, 4, 2];
+        var mx = Math.max(24, W * 0.05), top = 80, bottom = H - 60;
+        nodes = []; layers = []; edges = []; pulses = [];
+        sizes.forEach(function (n, li) {
+          var x = mx + (li * (W - 2 * mx)) / (sizes.length - 1);
+          var gap = (bottom - top) / (n + 1), L = [];
+          for (var k = 0; k < n; k++) {
+            var node = {
+              bx: x + (Math.random() - 0.5) * 30,
+              by: top + gap * (k + 1) + (Math.random() - 0.5) * gap * 0.4,
+              x: 0, y: 0, ox: 0, oy: 0, ph: Math.random() * 6.28,
+              act: 0, back: 0, hover: 0, fired: -1, out: [], inn: []
+            };
+            L.push(node); nodes.push(node);
+          }
+          layers.push(L);
+        });
+        // sparse connections between adjacent layers; every neuron keeps at least one in/out
+        for (var li = 0; li < layers.length - 1; li++) {
+          var A = layers[li], B = layers[li + 1];
+          A.forEach(function (a) { B.forEach(function (b) { if (Math.random() < 0.38) link(a, b); }); });
+          A.forEach(function (a) { if (!a.out.length) link(a, B[(Math.random() * B.length) | 0]); });
+          B.forEach(function (b) { if (!b.inn.length) link(A[(Math.random() * A.length) | 0], b); });
+        }
+        place(0);
+      }
+
+      function link(a, b) {
+        var e = { a: a, b: b, w: Math.random() * 2 - 1, heat: 0 };
+        edges.push(e); a.out.push(e); b.inn.push(e);
+      }
+
+      // gentle drift + smooth pull toward the cursor
+      function place(t) {
+        nodes.forEach(function (n) {
+          var wx = n.bx + Math.sin(t * 0.00035 + n.ph) * 12;
+          var wy = n.by + Math.cos(t * 0.0003 + n.ph * 1.3) * 14;
+          var dx = mouse.x - wx, dy = mouse.y - wy, d = Math.hypot(dx, dy);
+          var k = d < REACH ? 1 - d / REACH : 0;
+          n.ox += (dx * k * 0.28 - n.ox) * 0.12;
+          n.oy += (dy * k * 0.28 - n.oy) * 0.12;
+          n.hover += (k - n.hover) * 0.15;
+          n.x = wx + n.ox;
+          n.y = wy + n.oy;
+        });
+      }
+
+      // ---- ambient flow: forward pass (dir 1) / backprop (dir -1) ----
+      function fire(n, id, dir) {
+        if (n.fired === id) return;
+        n.fired = id;
+        if (dir > 0) n.act = 1; else n.back = 1;
+        var list = dir > 0 ? n.out : n.inn;
+        if (!list.length) return;
+        // always pass the signal along the strongest weight, others with probability ~|w|
+        var best = list.reduce(function (m, e) { return Math.abs(e.w) > Math.abs(m.w) ? e : m; });
+        list.forEach(function (e) {
+          var p = dir > 0 ? 0.1 + 0.35 * Math.abs(e.w) : 0.05 + 0.25 * Math.abs(e.w);
+          if (pulses.length < MAX_PULSES && (e === best || Math.random() < p)) {
+            pulses.push({ e: e, from: dir > 0 ? e.a : e.b, to: dir > 0 ? e.b : e.a, t: 0, kind: dir > 0 ? 'fwd' : 'back', id: id });
+          }
+        });
+      }
+
+      function startWave() {
+        wave++; waveCount++;
+        if (waveCount % 4 === 0) {
+          layers[layers.length - 1].forEach(function (n) { if (Math.random() < 0.5) fire(n, wave, -1); });
+        } else {
+          layers[0].forEach(function (n) { if (Math.random() < 0.6) fire(n, wave, 1); });
+        }
+      }
+
+      // ---- cursor-seeking flow: hop to the neighbour closest to the cursor ----
+      function seek(n) {
+        n.act = 1;
+        if (n === cursorNode || !cursorActive() || pulses.length >= MAX_PULSES) return;
+        var here = dist(n);
+        var options = n.out.concat(n.inn)
+          .map(function (e) { var m = e.a === n ? e.b : e.a; return { e: e, m: m, d: dist(m) }; })
+          .filter(function (o) { return o.d < here - 4; })
+          .sort(function (p, q) { return p.d - q.d; });
+        if (!options.length) {
+          if (here < REACH * 1.3) pulses.push({ e: null, from: n, to: cursorNode, t: 0, kind: 'seek' });
+          return;
+        }
+        var pick = options.length > 1 && Math.random() < 0.3 ? options[1] : options[0];
+        pulses.push({ e: pick.e, from: n, to: pick.m, t: 0, kind: 'seek' });
+      }
+
+      function spawnSeekers(count) {
+        var far = nodes.filter(function (n) { return dist(n) > REACH * 0.8; });
+        for (var i = 0; i < count && far.length; i++) seek(far.splice((Math.random() * far.length) | 0, 1)[0]);
+      }
+
+      function step(now) {
+        place(now);
+        cursorNode.x = mouse.x; cursorNode.y = mouse.y;
+        if (now - lastWave > WAVE_MS) { lastWave = now; startWave(); }
+        if (cursorActive() && now - lastSeek > SEEK_MS) { lastSeek = now; spawnSeekers(1); }
+
+        nodes.forEach(function (n) { n.act *= 0.96; n.back *= 0.96; });
+        edges.forEach(function (e) { e.heat *= 0.93; });
+
+        for (var k = pulses.length - 1; k >= 0; k--) {
+          var u = pulses[k];
+          var len = Math.max(1, Math.hypot(u.to.x - u.from.x, u.to.y - u.from.y));
+          u.t += SPEED / len;
+          if (u.e) u.e.heat = Math.max(u.e.heat, 0.9);
+          if (u.t >= 1) {
+            pulses.splice(k, 1);
+            if (u.kind === 'seek') seek(u.to);
+            else fire(u.to, u.id, u.kind === 'fwd' ? 1 : -1);
+          }
+        }
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        var i, e;
+
+        // weights: thickness/opacity from |w|; a passing signal or the cursor brightens them
+        for (i = 0; i < edges.length; i++) {
+          e = edges[i];
+          var aw = Math.abs(e.w), hv = Math.max(e.a.hover, e.b.hover);
+          var sp = strength((e.a.x + e.b.x) / 2, (e.a.y + e.b.y) / 2);
+          ctx.lineWidth = 0.6 + aw * 0.7 + hv * 0.8;
+          ctx.strokeStyle = 'rgba(' + rgb + ',' + Math.min(0.75, 0.06 + aw * 0.08 + e.heat * 0.3 * sp + hv * 0.4).toFixed(3) + ')';
+          ctx.beginPath(); ctx.moveTo(e.a.x, e.a.y); ctx.lineTo(e.b.x, e.b.y); ctx.stroke();
+        }
+
+        // cursor probe: soft halo + links to nearby neurons
+        if (cursorActive()) {
+          var halo = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, REACH * 0.7);
+          halo.addColorStop(0, 'rgba(' + rgb + ',0.10)');
+          halo.addColorStop(1, 'rgba(' + rgb + ',0)');
+          ctx.fillStyle = halo;
+          ctx.beginPath(); ctx.arc(mouse.x, mouse.y, REACH * 0.7, 0, 6.283); ctx.fill();
+          ctx.lineWidth = 1;
+          nodes.forEach(function (m) {
+            if (m.hover > 0.02) {
+              ctx.strokeStyle = 'rgba(' + rgb2 + ',' + (0.55 * m.hover).toFixed(3) + ')';
+              ctx.beginPath(); ctx.moveTo(mouse.x, mouse.y); ctx.lineTo(m.x, m.y); ctx.stroke();
+            }
+          });
+          ctx.fillStyle = 'rgba(' + rgb2 + ',0.9)';
+          ctx.beginPath(); ctx.arc(mouse.x, mouse.y, 2.5, 0, 6.283); ctx.fill();
+        }
+
+        // signals: faint by default, full strength near the cursor
+        for (i = 0; i < pulses.length; i++) {
+          var u = pulses[i], a = u.from, b = u.to, c = u.kind === 'back' ? rgb2 : rgb;
+          var x = a.x + (b.x - a.x) * u.t, y = a.y + (b.y - a.y) * u.t;
+          var t0 = Math.max(0, u.t - 0.25);
+          var x0 = a.x + (b.x - a.x) * t0, y0 = a.y + (b.y - a.y) * t0;
+          var st = strength(x, y), sk = spot(x, y);
+          var g = ctx.createLinearGradient(x0, y0, x, y);
+          g.addColorStop(0, 'rgba(' + c + ',0)');
+          g.addColorStop(1, 'rgba(' + c + ',' + (0.9 * st).toFixed(3) + ')');
+          ctx.strokeStyle = g; ctx.lineWidth = 1.1 + sk * 0.8;
+          ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x, y); ctx.stroke();
+          ctx.fillStyle = 'rgba(' + c + ',' + st.toFixed(3) + ')';
+          ctx.beginPath(); ctx.arc(x, y, 1.4 + sk * 0.9, 0, 6.283); ctx.fill();
+        }
+
+        // neurons: hollow ring at rest, filled + glow when activated (glow scaled by cursor proximity)
+        nodes.forEach(function (m) {
+          var sp = strength(m.x, m.y);
+          var fired = Math.max(m.act, m.back) * sp;
+          var act = Math.max(fired, m.hover * 0.85), rad = 3.6 + m.hover * 2.2;
+          var col = m.back > m.act ? rgb2 : rgb;
+          if (act > 0.03) {
+            var gr = ctx.createRadialGradient(m.x, m.y, 0, m.x, m.y, 18);
+            gr.addColorStop(0, 'rgba(' + col + ',' + (0.35 * act).toFixed(3) + ')');
+            gr.addColorStop(1, 'rgba(' + col + ',0)');
+            ctx.fillStyle = gr;
+            ctx.beginPath(); ctx.arc(m.x, m.y, 18, 0, 6.283); ctx.fill();
+          }
+          ctx.fillStyle = bg;
+          ctx.beginPath(); ctx.arc(m.x, m.y, rad, 0, 6.283); ctx.fill();
+          ctx.fillStyle = 'rgba(' + col + ',' + (act * 0.85).toFixed(3) + ')';
+          ctx.fill();
+          ctx.lineWidth = 1.2;
+          ctx.strokeStyle = 'rgba(' + col + ',' + Math.min(1, 0.4 + act * 0.6).toFixed(3) + ')';
+          ctx.stroke();
+        });
+      }
+
+      function resize() {
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        W = document.documentElement.clientWidth;
+        H = Math.max(hero.offsetTop + hero.offsetHeight + 100, 460);
+        canvas.width = W * dpr;
+        canvas.height = H * dpr;
+        canvas.style.height = H + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        build();
+      }
+
+      function loop(now) {
+        step(now); draw();
+        raf = requestAnimationFrame(loop);
+      }
+
+      function sync() {
+        var should = visible && !document.hidden && !reduce.matches;
+        if (should && !running) { running = true; raf = requestAnimationFrame(loop); }
+        if (!should && running) { running = false; cancelAnimationFrame(raf); draw(); }
+      }
+
+      readColors(); resize(); draw();
+
+      var rt;
+      window.addEventListener('resize', function () {
+        clearTimeout(rt);
+        rt = setTimeout(function () { resize(); draw(); }, 150);
+      });
+      window.addEventListener('pointermove', function (e) {
+        mouse.x = e.clientX; mouse.y = e.clientY + window.scrollY;
+      }, { passive: true });
+      document.addEventListener('pointerleave', function () { mouse.x = mouse.y = -9999; });
+      // click / tap: a burst of signals converging on the cursor
+      window.addEventListener('pointerdown', function (e) {
+        mouse.x = e.clientX; mouse.y = e.clientY + window.scrollY;
+        if (cursorActive()) spawnSeekers(8);
+      });
+      document.addEventListener('visibilitychange', sync);
+      if (reduce.addEventListener) reduce.addEventListener('change', sync);
+
+      var refresh = function () { readColors(); draw(); };
+      document.querySelector('.theme-toggle').addEventListener('click', refresh);
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      if (mq.addEventListener) mq.addEventListener('change', refresh);
+
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (en) { visible = en[0].isIntersecting; sync(); }).observe(canvas);
+      }
+      sync();
+    })();
+  </script>
+</body>
+</html>
