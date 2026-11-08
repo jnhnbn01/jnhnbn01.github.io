@@ -582,10 +582,6 @@ ul {
   object-fit: contain;
 }
 
-.entry-logo--zoom img {
-  transform: scale(1.75);
-}
-
 .entry-body {
   flex: 1;
   min-width: 0;
